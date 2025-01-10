@@ -1,0 +1,22 @@
+.news-card {
+    max-width: 100%; /* Ensure the card fits within any screen */
+  }
+  
+  @media (max-width: 768px) {
+    .news-card {
+      margin: 1rem auto; /* Adjust margins for smaller screens */
+    }
+  
+    .card-title,
+    .card-text {
+      font-size: 0.9rem; /* Adjust font sizes for readability */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-title,
+    .card-text {
+      font-size: 0.8rem; /* Further adjustments for extra small screens */
+    }
+  }
+  

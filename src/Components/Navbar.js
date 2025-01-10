@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from './logo-nav.png';
+
+
+
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary"> 
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          NewsBird
+        <img src={logo} style={{ height:"40px" , borderRadius:"50%"}} className="logo-nav"alt="NewsBird Logo" />          NewsBird
         </Link>
         <button
           className="navbar-toggler"

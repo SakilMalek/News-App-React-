@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NewsItem } from './NewsItem'// Assuming you have this component
-import {Spinner} from "./Spinner"; // Optional: Loading spinner component
+import {Spinner} from "./Spinner.js"; // Optional: Loading spinner component
 
 export default class News extends Component {
   constructor(props) {
